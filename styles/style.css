@@ -30,54 +30,119 @@
 /* Common */
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #060D10;;
-    }
+    font-style: normal;
+    color: #060D10;
+}
 
 /* Header */
 .header {
     background-color: #66D1FF;
-    }
+}
 
 .header-btn {
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
-    }  
+    text-decoration: none;
+    color: #060D10;
+}  
 
 .phone {
-    font-style: normal;
     font-weight: 500;
     font-size: 28px;
     line-height: 34px;
-    }
+}
 
 /* Promo */
 .promo {
     color: #FFFFFF;
     text-shadow: 1px 1px 2px #060D10;
-    }
+    background: linear-gradient(0deg, rgba(6, 13, 16, 0.25), rgba(6, 13, 16, 0.25)), url(.jpg);
+}
 
 .promo h1 {
-    font-family: 'Oswald';
-    font-style: normal;
+    font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 60px;
     line-height: 89px;
     text-transform: uppercase;
-    }
+}
 
 .promo p {
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 39px;
-    }
+}
 
+/* Advantages */
+.advantages {
+    font-family: 'Oswald', sans-serif;
+    /* background: #66D1FF;
+    mix-blend-mode: normal;
+    opacity: 0.1; */
+}   
+
+.advantages h2 {
+    font-size: 48px;
+    line-height: 167%;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.advantages-title {
+    font-size: 32px;
+    line-height: 167%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.advantages-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+}
 /* Lead */
+.lead {
+    /* background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%);
+    mix-blend-mode: normal;
+    opacity: 0.1; */
+}
 
-/* Options */
+.lead h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 167%;
+    text-align: center; 
+    text-transform: uppercase;
+}
 
-/* Order */
+.lead-btn {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    /* text-align: center; если задается внешний блочный */
+    text-decoration: none;
+    color: #060D10;
+}
 
 /* Footer */
+.footer {
+    background: #060D10;
+    color: #FFFFFF;
+}
+
+.join {
+    font-size: 20px;
+    line-height: 167%;
+    /* text-align: center; нужен внешний блочный элемент */
+}
+
+.copies {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    mix-blend-mode: normal;
+}
