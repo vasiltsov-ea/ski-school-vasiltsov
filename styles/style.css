@@ -45,7 +45,7 @@ body {
 }
 /* Header */
 .header {
-    /* padding: 34px 0; Как определить отступы в шапке сверху и снизу элементов */
+    padding: 31px 0;
     background-color: #66D1FF;
 }
 
@@ -59,6 +59,7 @@ body {
     display: block;
     width: 276px;
     height: 45px;
+    margin: 0;
     padding: 7px 39px; /* значения 8 и 41 из макета не центрируют текст */
     font-weight: 500;
     font-size: 24px;
@@ -74,11 +75,13 @@ body {
 .logo {
     width: 295.5px;
     height: 50.76px;
+    margin: 0;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .phone {
+    margin: 0;
     font-weight: 500;
     font-size: 28px;
     line-height: 34px;
@@ -163,19 +166,51 @@ body {
 
 /* Footer */
 .footer {
+    padding: 35px 0;
     background: #060D10;
     color: #FFFFFF;
 }
 
-.join {
-    font-size: 20px;
-    line-height: 167%;
-    /* text-align: center; нужен внешний блочный элемент */
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.copies {
+.footer-link {
+    width: 171px;
+    height: 33px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 167%;
+    text-align: center;
+}
+
+.copyrights {
+    margin: 0;
     font-size: 18px;
     line-height: 22px;
     text-align: right;
     mix-blend-mode: normal;
+
+}
+
+.social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icon {
+    margin-left: 20px;
+}
+
+.social-link {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
