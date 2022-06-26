@@ -92,6 +92,19 @@ body {
     color: #FFFFFF;
     text-shadow: 1px 1px 2px #060D10;
     background: linear-gradient(0deg, rgba(6, 13, 16, 0.25), rgba(6, 13, 16, 0.25)), url(.jpg);
+    background-image: url('../images/promo.png');
+    background-repeat: no-repeat;
+    background-size: cover; /*разобраться - cover или contain*/
+    background-position: center;
+    /*Разбираться с размером background*/
+}
+
+.promo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Править расстояния между надписями и между надписями и границами блока*/
 }
 
 .promo h1 {
@@ -140,10 +153,11 @@ body {
     line-height: 140%;
 }
 /* Lead */
-.lead {
-    /* background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%);
-    mix-blend-mode: normal;
-    opacity: 0.1; */
+.lead-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
 }
 
 .lead h2 {
@@ -162,6 +176,13 @@ body {
     /* text-align: center; если задается внешний блочный */
     text-decoration: none;
     color: #060D10;
+}
+
+.photo-lead {
+    width: 297px;
+    height: 297px;
+    /* background-color: #C4C4C4; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 /* Footer */
