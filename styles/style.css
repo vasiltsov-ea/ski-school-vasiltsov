@@ -126,9 +126,8 @@ body {
 /* Advantages */
 .advantages {
     font-family: 'Oswald', sans-serif;
-    /* background: #66D1FF;
-    mix-blend-mode: normal;
-    opacity: 0.1; */
+    background-color: rgb(102, 209, 255, .1);
+
 }
 
 .advantages h2 {
@@ -139,6 +138,19 @@ body {
     text-transform: uppercase;
 }
 
+.advantages-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+.advantages-item {
+    flex-basis: 33%;
+    width: 406px;
+
+
+}
+
 .advantages-title {
     font-size: 32px;
     line-height: 167%;
@@ -147,6 +159,9 @@ body {
 }
 
 .advantages-text {
+    margin-top: 25px;
+    margin-bottom: 70px;
+    margin-left: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 26px;
