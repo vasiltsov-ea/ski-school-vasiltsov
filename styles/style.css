@@ -131,7 +131,7 @@ body {
     padding: 170px 0 170px 0;
 }
 .advantages-container {
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
 }
 
 .advantages h2 {
@@ -175,14 +175,13 @@ body {
     line-height: 140%;
 }
 /* Lead */
-.lead-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-between;
+.lead-fade {
+    margin: 170px 0 180px 0;
+
 }
 
 .lead h2 {
+    margin-bottom: 60px;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 48px;
@@ -192,14 +191,29 @@ body {
 }
 
 .lead-btn {
+
+    display: block;
+    width: 505px;
+    height: 86px;
+    margin: auto;
+    padding: 20px 104px 20px 104px;
+    /* В макете 20 107 22 108 */
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
-    /* text-align: center; если задается внешний блочный */
+    text-align: center;
     text-decoration: none;
     color: #060D10;
+    border: 3px solid #060D10;
+    border-radius: 4px;
+    background-color: #FFFFFF;
 }
 
+.photo-lead-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 0 180px 0;
+}
 .photo-lead {
     width: 297px;
     height: 297px;
