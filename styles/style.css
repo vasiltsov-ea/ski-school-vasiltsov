@@ -127,13 +127,15 @@ body {
     font-family: 'Oswald', sans-serif;
     background-color: rgb(102, 209, 255, .1);
 
+}.advantages-fade {
+    padding: 170px 0 170px 0;
 }
-
 .advantages-container {
     border-bottom: 1px solid #000;
 }
 
 .advantages h2 {
+    margin: 0 0 100px 0;
     font-size: 48px;
     line-height: 167%;
     font-weight: 500;
@@ -145,11 +147,13 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: -30px;
     }
 
 .advantages-item {
+    margin-left: 30px;
     flex-basis: 33%;
-    width: 406px;
+    max-width: 406px;
 
 
 }
