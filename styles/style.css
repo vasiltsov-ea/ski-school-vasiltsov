@@ -7,7 +7,7 @@
     src: local(''),
          url('../fonts/montserrat-v24-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/montserrat-v24-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+}
 
 @font-face {
     font-family: 'Montserrat';
@@ -16,7 +16,7 @@
     src: local(''),
          url('../fonts/montserrat-v24-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/montserrat-v24-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+}
 
 @font-face {
     font-family: 'Oswald';
@@ -25,7 +25,7 @@
     src: local(''),
          url('../fonts/oswald-v48-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/oswald-v48-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+}
 
 /* Common */
 * {
@@ -56,8 +56,8 @@ body {
   }
 
 .header-btn {
-    display: block;
-    width: 276px;
+    display: inline-block;
+    min-width: 276px;
     height: 45px;
     margin: 0;
     padding: 8px 39px; /* значения 8 и 41 из макета не центрируют текст */
@@ -91,23 +91,20 @@ body {
 .promo {
     color: #FFFFFF;
     text-shadow: 1px 1px 2px #060D10;
-    background: linear-gradient(0deg, rgba(6, 13, 16, 0.25), rgba(6, 13, 16, 0.25)), url(.jpg);
+    background-color: rgba(6, 13, 16, 0.25);
     background-image: url('../images/promo.png');
     background-repeat: no-repeat;
-    background-size: cover; /*разобраться - cover или contain*/
     background-position: center;
-    /*Разбираться с размером background*/
+
 }
 
-.promo-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* Править расстояния между надписями и между надписями и границами блока*/
+.promo-fade {
+    padding: 240px 0 260px 0;
+    background-color: rgba(6, 13, 16, 0.25);
 }
 
 .promo h1 {
+    margin: 0 0 60px 0;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 60px;
@@ -117,6 +114,7 @@ body {
 }
 
 .promo p {
+    margin: 0;
     font-weight: 500;
     font-size: 32px;
     line-height: 39px;
@@ -125,9 +123,14 @@ body {
 
 /* Advantages */
 .advantages {
+    margin: 0;
     font-family: 'Oswald', sans-serif;
     background-color: rgb(102, 209, 255, .1);
 
+}
+
+.advantages-container {
+    border-bottom: 1px solid #000;
 }
 
 .advantages h2 {
@@ -161,7 +164,7 @@ body {
 .advantages-text {
     margin-top: 25px;
     margin-bottom: 70px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 26px;
