@@ -83,9 +83,13 @@ body {
 
 .phone {
   margin: 0;
+  color: #060D10;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
+  text-decoration: none;
 }
 
 /* Promo */
@@ -274,7 +278,6 @@ body {
   line-height: 22px;
   text-align: right;
   mix-blend-mode: normal;
-
 }
 
 .social {
