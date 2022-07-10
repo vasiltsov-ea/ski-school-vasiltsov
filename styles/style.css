@@ -132,9 +132,9 @@ body {
   padding: 170px 0 170px 0;
 }
 
-.advantages-container {
-  /* border-bottom: 1px solid #000; */
-}
+/* .advantages-container {
+  border-bottom: 1px solid #000;
+} */
 
 .advantages h2 {
   margin: 0 0 100px 0;
@@ -194,6 +194,10 @@ body {
     /* opacity: .1; */
 }
 
+/* .lead-container {
+  border-top: 1px solid #000;
+} */
+
 .lead h2 {
   margin-top: 0;
   margin-bottom: 60px;
@@ -226,7 +230,7 @@ body {
 .photo-lead-wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 130px 0 180px -30px;
+  margin: 130px 0 0 -30px;
 }
 
 .photo-lead {
