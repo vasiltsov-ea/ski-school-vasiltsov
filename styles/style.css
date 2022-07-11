@@ -182,20 +182,14 @@ body {
 /* Lead */
 
 .lead {
-  /* background-color: #fff;
-  background-position: center;
-  background-size: cover;
-  background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%); */
+  background-color: rgb(255, 255, 255);
 }
-
 
 .lead-fade {
   padding: 170px 0 180px 0;
-  background-color: #fff;
-  background-position: center;
-  background-size: cover;
-  background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%);
-    /* opacity: .1; */
+  background-color: rgb(255, 255, 255);
+  background: linear-gradient(201deg, rgb(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+/* В макете 208deg */
 }
 
 /* .lead-container {
@@ -228,7 +222,8 @@ body {
   color: #060D10;
   border: 3px solid #060D10;
   border-radius: 4px;
-  background-color: #FFFFFF;
+  background-color: rgb(255, 255, 255, .1);
+
 }
 
 .photo-lead-wrapper {
