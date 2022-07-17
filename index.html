@@ -20,7 +20,7 @@
   </header>
 
   <main>
-    <section class="promo"> <!-- Заменить promo + в CSS (режется Адблоком) -->
+    <section class="promo">
       <div class="promo-fade">
         <div class="container">
           <h1 class="promo-title">Обучение горным лыжам в санкт-петербурге</h1>
@@ -31,7 +31,7 @@
     </section>
 
     <section class="advantages">
-      <div class="container advantages-container">
+      <div class="container">
         <h2 class="advantages-title">Учиться с нами увлекательно и эффективно</h2>
         <div class="advantages-wrapper">
           <div class="advantages-item">
@@ -63,15 +63,25 @@
     </section>
 
     <section class="lead">
-      <div class="lead-fade">
-        <div class="container lead-container">
-          <h2 class="lead-title">Гоу! Покорять склоны вместе</h2>
-          <a class="lead-btn" href="#">Начать учиться</a>
-          <div class="photo-lead-wrapper">
-            <img class="photo-lead" src="images/photo-lead(1).png" alt="Два человека в горнолыжном снаряжении позируют на горнолыжной трассе">
-            <img class="photo-lead" src="images/photo-lead(2).png" alt="Три человека совершают спуск по горнолыжной трассе на фоне гор">
-            <img class="photo-lead" src="images/photo-lead(3).png" alt="Три человека в горнолыжных шлемах, очках и одежде совершают подъем в кресельном подъемнике">
-            <img class="photo-lead" src="images/photo-lead(4).png" alt="Человек в сноубордическом снаряжении совершает прыжок на трассе, на фоне двух других людей">
+      <div class="container lead-container">
+        <h2 class="lead-title">Гоу! Покорять склоны вместе</h2>
+        <a class="lead-btn" href="#">Начать учиться</a>
+        <div class="photo-lead-wrapper">
+          <div class="photo-lead-box">
+            <img class="photo-lead" src="images/two-persons-on-track.jpg"
+            alt="Два человека в горнолыжном снаряжении позируют на горнолыжной трассе">
+          </div>
+          <div class="photo-lead-box">
+            <img class="photo-lead" src="images/three-persons-on-track.jpg"
+            alt="Три человека совершают спуск по горнолыжной трассе на фоне гор">
+          </div>
+          <div class="photo-lead-box">
+            <img class="photo-lead" src="images/three-persons-on-chairlift.jpg"
+            alt="Три человека в горнолыжных шлемах, очках и одежде совершают подъем в кресельном подъемнике">
+          </div>
+          <div class="photo-lead-box">
+            <img class="photo-lead" src="images/one-jumping-person-in-front-of-two-others.jpg"
+            alt="Человек в сноубордическом снаряжении совершает прыжок на трассе, на фоне двух других людей">
           </div>
         </div>
       </div>
@@ -81,27 +91,25 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-wrapper">
-        <div class="footer-link-social">
-          <p class="footer-link">Присоединяйся</p> <!-- Наименование класса (btn?)-->
-          <ul class="social">
-            <li class="social-icon twit">
-              <a href="#" class="social-link" title="Мы в Twitter"
-              style="background-image: url('images/twitter-icon.svg');"></a>
-            </li>
-            <li class="social-icon">
-              <a href="#" class="social-link" title="Мы в LinkedIn"
-              style="background-image: url('images/linkedin-icon.svg');"></a>
-            </li>
-            <li class="social-icon">
-              <a href="#" class="social-link" title="Мы в Google"
+        <p class="footer-link">Присоединяйся</p>
+        <ul class="social">
+          <li class="social-icon twit">
+            <a href="#" class="social-link" title="Мы в Twitter"
+            style="background-image: url('images/twitter-icon.svg');"></a>
+          </li>
+          <li class="social-icon">
+            <a href="#" class="social-link" title="Мы в LinkedIn"
+            style="background-image: url('images/linkedin-icon.svg');"></a>
+          </li>
+          <li class="social-icon">
+            <a href="#" class="social-link" title="Мы в Google"
               style="background-image: url('images/google-icon.svg');"></a>
             </li>
             <li class="social-icon">
-              <a href="#" class="social-link" title="Мы в Facebook"
-              style="background-image: url('images/facebook-icon.svg');"></a>
-            </li>
-          </ul>
-        </div>
+            <a href="#" class="social-link" title="Мы в Facebook"
+            style="background-image: url('images/facebook-icon.svg');"></a>
+          </li>
+        </ul>
         <p class="copyrights">copy+v copy+c © 2021</p>
       </div>
     </div>
