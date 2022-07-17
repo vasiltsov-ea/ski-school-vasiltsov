@@ -100,6 +100,7 @@ body {
   background-image: url('../images/promo.png');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .promo-fade {
@@ -107,7 +108,7 @@ body {
   background-color: rgba(6, 13, 16, 0.25);
 }
 
-.promo h1 {
+.promo-title {
   margin: 0 0 60px 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
@@ -117,7 +118,7 @@ body {
   text-align: center;
 }
 
-.promo p {
+.promo-tagline {
   margin: 0;
   font-weight: 500;
   font-size: 32px;
@@ -130,9 +131,6 @@ body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
   background-color: rgb(102, 209, 255, .1);
-}
-
-.advantages-fade {
   padding: 170px 0 170px 0;
 }
 
@@ -140,7 +138,7 @@ body {
   border-bottom: 1px solid #000;
 } */
 
-.advantages h2 {
+.advantages-title {
   margin: 0 0 100px 0;
   font-size: 48px;
   line-height: 167%;
@@ -163,7 +161,7 @@ body {
   max-width: 406px;
 }
 
-.advantages-title {
+.advantages-item-title {
   font-size: 32px;
   line-height: 167%;
   font-weight: 500;
@@ -196,7 +194,7 @@ body {
   border-top: 1px solid #000;
 } */
 
-.lead h2 {
+.lead-title {
   margin-top: 0;
   margin-bottom: 60px;
   font-family: 'Oswald', sans-serif;
